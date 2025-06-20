@@ -1,0 +1,61 @@
+.container-machaniccase{
+   background-image: url('/images/2.png');
+   
+}
+.ant-typography{
+  margin: 0!important;
+  color:#000 !important;
+}
+.infolabel{
+  font-family: 'Kanit', sans-serif;
+  color: #000;
+  font-size: 15px;
+}
+.container-case {
+  padding: 300px 16px 16px;
+}
+
+.info-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-container {
+  text-align: left;
+  padding-left: 8px;
+}
+
+.info-room {
+  margin: 0 0 4px 0;
+  color: #1890ff;
+}
+
+.info-label {
+  color: #fa541c;
+  font-weight: 600;
+}
+
+.info-value {
+  color: #000;
+}
+
+.info-detail {
+  font-size: 12px;
+  display: inline-block;
+  margin-bottom: 4px;
+  color: #888;
+}
+
+.info-status {
+  color: #f5222d;
+}
+
+.card-text label {
+  font-weight: bold;
+  color: #000;
+}
+.infolabel{
+  margin-top: 0 o !important;
+  margin-bottom: 0 !important;
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "origin": ["https://con-do-liff-wel9.vercel.app"],
+    "method": ["GET", "POST", "PUT"],
+    "maxAgeSeconds": 3600
+  }
+]

@@ -1,0 +1,90 @@
+.container-report-m {
+  background-image: url('/images/2.png');
+  padding: 24px;
+  border-radius: 12px;
+  max-width: 450px;
+  margin: 0 auto;
+  min-height: 100vh;
+  color: white;
+}
+
+.container-report-m .ant-typography {
+  color: white !important;
+  font-family: 'Kanit', sans-serif;
+}
+
+.ant-tabs-tab {
+  padding: 12px;
+}
+
+.ant-tabs-nav::before {
+  border-bottom: none !important;
+}
+
+.tab-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  border: white;
+  background: #9E9E9E;
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+}
+
+.tab-icon img {
+  width: 40px;
+  height: 40px;
+  border: none;
+  box-shadow: none;
+  object-fit: contain;
+  margin-bottom: 4px;
+}
+
+.ant-form-item-label > label {
+    font-family: 'Kanit', sans-serif;
+  color: white !important;
+}
+
+.ant-upload-wrapper .ant-upload-list-item {
+  background-color: #ffffff !important;
+  color: black;
+}
+
+.or-label {
+  text-align: center;
+  margin: 10px 0;
+  font-weight: bold;
+  color: white;
+}
+
+.ant-form-item:last-child .ant-btn-primary {
+  background-color: #22C38A;
+  border-color: #22C38A;
+  font-weight: bold;
+}
+.container-report-m .ant-form-item-label > label {
+  color: white !important;
+  font-family: 'Kanit', sans-serif !important;
+}
+
+.ant-tabs-ink-bar {
+  display: none !important;
+}
+
+.ant-tabs-tab {
+  background-color: #94B9FF;
+  border-radius: 20px;
+  color: white !important;
+  transition: 0.3s ease;
+}
+
+.ant-tabs-tab-active .tab-icon {
+  background-color: #94B9FF !important; 
+  color: white !important;
+}
+
+.ant-tabs-nav::before {
+  border-bottom: none !important;
+}

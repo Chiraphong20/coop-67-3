@@ -1,0 +1,72 @@
+
+.meeting-container {
+  text-align: center;
+  width: 87vw;
+  background-color: white;
+  padding-top: 24px;
+}
+
+.header {
+  position: relative;
+  height: 60px; 
+  margin-bottom: 20px;
+}
+
+.title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Kanit', sans-serif;
+}
+
+.spacer {
+  flex: 1;
+}
+tent-content {
+  background-color: white !important;
+  padding: 24px; 
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.room-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  width: 80vw;
+}
+
+.room-card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.room-card.booked {
+  background-color: #ff6666;
+  color: white;
+}
+
+.time {
+  font-size: 14px;
+}
+
+.room-id {
+  font-size: 18px;
+  margin: 8px 0;
+}
+.modal-content p {
+  margin: 12px 0;
+  text-align: left;
+}

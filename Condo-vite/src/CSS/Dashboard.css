@@ -1,0 +1,58 @@
+.dashboard-wrapper {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Kanit', sans-serif;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.custom-header {
+  background: #fff;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.custom-header-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 0;
+  font-weight: bold;
+}
+
+.content-dash {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  background: #FFF;
+  min-height: 93vh;
+  width: 85vw;
+  box-sizing: border-box;
+  margin: 0;
+}
+.condoname {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+
+}
+.custom-menu-item {
+  padding-left: 0; 
+}
+
+.custom-menu-item {
+  padding-left: 0; 
+}
+
+.menu-link {
+  display: block;
+  width: 100%;
+  color: white;
+  text-align: left; 
+  padding-left: 12px; 
+  text-decoration: none;
+}

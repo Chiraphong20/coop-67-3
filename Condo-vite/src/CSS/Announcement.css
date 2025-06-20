@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.announcement-container {
+  padding: 0 !important;
+  background: #f0f2f5;
+  width:87vw; 
+  height: 100vh; 
+  box-sizing: border-box;
+
+}
+.ant-table td {
+  padding: 16px 15px !important; 
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 87vw;
+}
+
+.header p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+.btn-add {
+  padding: 12px 24px;
+  font-size: 18px;
+  width: 100%; 
+  max-width: 80%; 
+  height: 40px;
+  border-radius: 16px;
+  background-color:#22C38A ;
+  font-family: 'Kanit', sans-serif;
+  font-weight: bold;
+  margin-right: 20px;
+}

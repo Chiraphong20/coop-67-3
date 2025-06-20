@@ -1,0 +1,67 @@
+.finance-report-list {
+ padding-top: 48px;
+  background-color: #0d1b2a;
+  min-height: 100vh;
+  color: white;
+}
+
+.title {
+  text-align: center  !important;
+  font-size: 28px !important;
+  margin-top: 0 !important;
+  color: white !important;
+  position: relative !important;
+}
+
+.report-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  color: black;
+  text-align: center;
+}
+
+.report-label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.report-date {
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.report-image-wrapper {
+  position: relative;
+  border: 3px solid #00aaff;
+  border-radius: 8px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.report-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.zoom-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28px;
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+  padding: 8px;
+  pointer-events: none;
+}
+
+.no-image {
+  color: #999;
+  font-style: italic;
+}

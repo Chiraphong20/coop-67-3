@@ -1,0 +1,47 @@
+.staff-container {
+  width: 87vw;
+  height: 90vh;
+  padding: 24px;
+  background-color: #f0f2f5;
+  box-sizing: border-box;
+}
+.page-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Kanit', sans-serif;
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 87vw;
+  position: relative;
+}
+
+.page-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Kanit', sans-serif;
+  margin: 0;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.custom-table .ant-table-cell {
+  padding-left: 12px !important;
+  padding-right: 8px !important;
+}
+.custom-table .ant-table-thead > tr > th {
+  padding-left: 12px !important;
+  padding-right: 8px !important;
+}

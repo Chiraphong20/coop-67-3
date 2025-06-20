@@ -1,0 +1,67 @@
+.container-machanicstatus {
+  background-image: url('/images/2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px 20px; 
+  min-height: 100vh;  
+}
+
+.container-machanicstatus h2 {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.submit {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.buttoncancel, .buttonOK {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.buttoncancel {
+  background-color: #ccc;
+}
+
+.buttonOK {
+  background-color: #4CAF50;
+  color: white;
+}
+.container-machanicstatus input,
+.container-machanicstatus textarea,
+.container-machanicstatus .ant-select-selector,
+.container-machanicstatus .ant-picker {
+  background-color: white !important;
+  color: black !important;         
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+}
+
+.container-machanicstatus .ant-select-selector .ant-select-selection-item,
+.container-machanicstatus .ant-select-selector .ant-select-selection-placeholder {
+  color: black !important;
+}
+
+.container-machanicstatus textarea {
+  color: black !important;
+}
+
+.custom-upload-button {
+  color: white;
+}
+
+.avatar-uploader.ant-upload-wrapper .ant-upload.ant-upload-select {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px dashed #fff;
+}

@@ -1,0 +1,40 @@
+.staff-container {
+  width: 87vw;
+  height: 90vh;
+  padding: 24px;
+  background-color: #f0f2f5;
+  box-sizing: border-box;
+}
+
+.header {
+  position: relative;
+  height: 60px; 
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.spacer {
+  width: 40px; 
+}
+
+.title-staff{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Kanit', sans-serif;
+  margin: 0;
+}
+.header p {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  font-family: 'Kanit', sans-serif;
+}

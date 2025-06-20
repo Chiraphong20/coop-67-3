@@ -1,0 +1,38 @@
+form label {
+  display: block;
+  text-align: left;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.mac .ant-input,
+.mac .ant-input[disabled],
+.mac .ant-input-textarea,
+.mac .ant-input-textarea[disabled],
+.mac .ant-picker {
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.mac .ant-input[disabled]::placeholder,
+.mac .ant-input-textarea[disabled]::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.mac h2 {
+  margin-top: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.container-machanic {
+  width: 100%;
+  max-width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  overflow-x: hidden;
+   background-image: url('/images/2.png');
+}
